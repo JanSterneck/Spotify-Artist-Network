@@ -41,7 +41,7 @@ function draw() {
     var name = related.artists[i].name;
     var pop = related.artists[i].popularity;
     var followers = related.artists[i].followers.total;
-    followers = followers/5000;
+    followers = followers/20000;
 
     var x = width/2 + cos(radians(angle*i)) * (pop*5);
     var y = height/2 + sin(radians(angle*i)) * (pop*5);
