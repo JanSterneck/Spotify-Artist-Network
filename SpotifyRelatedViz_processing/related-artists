@@ -1,0 +1,587 @@
+{
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/2pLvihTVAElhBCw7HcrIUC"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 29969
+    },
+    "genres" : [ "indie garage rock", "indie r&b", "underground hip hop" ],
+    "href" : "https://api.spotify.com/v1/artists/2pLvihTVAElhBCw7HcrIUC",
+    "id" : "2pLvihTVAElhBCw7HcrIUC",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/0e5aa3384ab9511c5030213fdde01a017ab25363",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/c052c6c8c88beeebd2e5ca5fcdcb3c64619aa5f2",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/2e98565bbc37db66e03f55a6d747608b9d5d7c1d",
+      "width" : 160
+    } ],
+    "name" : "Archy Marshall",
+    "popularity" : 50,
+    "type" : "artist",
+    "uri" : "spotify:artist:2pLvihTVAElhBCw7HcrIUC"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1bwUhKRmEkOZ1wuTnV9XjC"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 156378
+    },
+    "genres" : [ "brooklyn indie", "chillwave", "dream pop", "freak folk", "garage psych", "indie folk", "indie garage rock", "indie pop", "indie psych-rock", "indie rock", "indietronica", "modern rock", "neo-psychedelic", "noise pop", "nu gaze", "popgaze", "preverb", "shimmer pop", "synthpop" ],
+    "href" : "https://api.spotify.com/v1/artists/1bwUhKRmEkOZ1wuTnV9XjC",
+    "id" : "1bwUhKRmEkOZ1wuTnV9XjC",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/1281f4a44c39e8836c6388ed50631d7984e2d8bf",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/becb7c1cef320930625d89d8b8bddf0915bdb500",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/e596c95d0b95b9d55f91cf3e269e1f409c52e36e",
+      "width" : 160
+    } ],
+    "name" : "Beach Fossils",
+    "popularity" : 66,
+    "type" : "artist",
+    "uri" : "spotify:artist:1bwUhKRmEkOZ1wuTnV9XjC"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4DMSJzGjw2SMkKAT5EEE5u"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 108723
+    },
+    "genres" : [ "indie garage rock", "indie psych-rock", "indie r&b", "indietronica", "neo-psychedelic" ],
+    "href" : "https://api.spotify.com/v1/artists/4DMSJzGjw2SMkKAT5EEE5u",
+    "id" : "4DMSJzGjw2SMkKAT5EEE5u",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/2719cb043762c6f076ab62b570a9478712dea187",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/da68be9c760513c506e995aaa43f133dcf1cffbc",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/233a025f8a2561b5e9a6865d9f1e7001651137c0",
+      "width" : 160
+    } ],
+    "name" : "HOMESHAKE",
+    "popularity" : 67,
+    "type" : "artist",
+    "uri" : "spotify:artist:4DMSJzGjw2SMkKAT5EEE5u"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1LeVJ5GPeYDOVUjxx1y7Rp"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 238170
+    },
+    "genres" : [ "alternative dance", "chamber pop", "chillwave", "freak folk", "garage rock", "indie folk", "indie garage rock", "indie pop", "indie psych-rock", "indie r&b", "indie rock", "indietronica", "modern rock", "neo-psychedelic", "new rave", "noise pop", "portland indie", "shimmer pop" ],
+    "href" : "https://api.spotify.com/v1/artists/1LeVJ5GPeYDOVUjxx1y7Rp",
+    "id" : "1LeVJ5GPeYDOVUjxx1y7Rp",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/fdc2d006e558c0428e5db92d36304f6caebeeeb9",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/cb95a7b8523fb57a1fa4ec46050f9671d4737f77",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/4ab1fa83a9683aa916bf2c186c3578f31893ec28",
+      "width" : 160
+    } ],
+    "name" : "Unknown Mortal Orchestra",
+    "popularity" : 66,
+    "type" : "artist",
+    "uri" : "spotify:artist:1LeVJ5GPeYDOVUjxx1y7Rp"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5H0YoDsPDi9fObFmJtTjfN"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 106453
+    },
+    "genres" : [ "alternative dance", "alternative rock", "art rock", "chamber pop", "chamber psych", "chillwave", "dance-punk", "dream pop", "escape room", "experimental", "folk-pop", "freak folk", "garage psych", "indie folk", "indie garage rock", "indie pop", "indie r&b", "indie rock", "indietronica", "lo-fi", "modern rock", "neo-psychedelic", "new rave", "new wave", "new weird america", "noise pop", "noise rock", "nu gaze", "post-punk", "preverb", "singer-songwriter", "slow core" ],
+    "href" : "https://api.spotify.com/v1/artists/5H0YoDsPDi9fObFmJtTjfN",
+    "id" : "5H0YoDsPDi9fObFmJtTjfN",
+    "images" : [ {
+      "height" : 610,
+      "url" : "https://i.scdn.co/image/0c935d5361598dc4393017b3a5bff7355bbee3b7",
+      "width" : 748
+    }, {
+      "height" : 522,
+      "url" : "https://i.scdn.co/image/b365e2270274f60b6b9b8ee3ffd2a234d2df8c85",
+      "width" : 640
+    }, {
+      "height" : 163,
+      "url" : "https://i.scdn.co/image/265d927346a0c2a6923280e12fa7c27b2be1a416",
+      "width" : 200
+    }, {
+      "height" : 52,
+      "url" : "https://i.scdn.co/image/64900c3cd29e51ab8f538c94a4520ed0b3755543",
+      "width" : 64
+    } ],
+    "name" : "Ariel Pink",
+    "popularity" : 63,
+    "type" : "artist",
+    "uri" : "spotify:artist:5H0YoDsPDi9fObFmJtTjfN"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/247AfC9pLuqwgpH8Mo96oA"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 69263
+    },
+    "genres" : [ "chillwave", "freak folk", "indie garage rock", "indie r&b", "indietronica", "kiwi rock", "neo-psychedelic", "new weird america" ],
+    "href" : "https://api.spotify.com/v1/artists/247AfC9pLuqwgpH8Mo96oA",
+    "id" : "247AfC9pLuqwgpH8Mo96oA",
+    "images" : [ {
+      "height" : 750,
+      "url" : "https://i.scdn.co/image/6c20e9af2ed14540c76b205cc26507c91b759065",
+      "width" : 1000
+    }, {
+      "height" : 480,
+      "url" : "https://i.scdn.co/image/33215dadc29937f42cac32db52e951e844826ea5",
+      "width" : 640
+    }, {
+      "height" : 150,
+      "url" : "https://i.scdn.co/image/d90aa266eef2fefdaccea5b2aebfc9d9e352f9bc",
+      "width" : 200
+    }, {
+      "height" : 48,
+      "url" : "https://i.scdn.co/image/6c3ce919c52c692597a75d4164f769c6c2813b90",
+      "width" : 64
+    } ],
+    "name" : "Connan Mockasin",
+    "popularity" : 54,
+    "type" : "artist",
+    "uri" : "spotify:artist:247AfC9pLuqwgpH8Mo96oA"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6C403AR4y6PjN0xNNGh42m"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 55681
+    },
+    "genres" : [ "alternative hip hop", "chillwave", "escape room", "fluxwork", "freak folk", "hip hop", "indie r&b", "indietronica", "neo-psychedelic", "noise pop", "underground hip hop", "wonky" ],
+    "href" : "https://api.spotify.com/v1/artists/6C403AR4y6PjN0xNNGh42m",
+    "id" : "6C403AR4y6PjN0xNNGh42m",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/44ac791d3034f9a291b987ccc3c3fcc528f5e9a2",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/716693b6adfbdc7a04b51e4379ee5e32e67e677d",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/88901d7ea692a36d3b94587b1ec8b7effd7b79ee",
+      "width" : 160
+    } ],
+    "name" : "Shabazz Palaces",
+    "popularity" : 50,
+    "type" : "artist",
+    "uri" : "spotify:artist:6C403AR4y6PjN0xNNGh42m"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1RKG6WXRzmTJtbLRZTPU0T"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 47973
+    },
+    "genres" : [ "indie garage rock" ],
+    "href" : "https://api.spotify.com/v1/artists/1RKG6WXRzmTJtbLRZTPU0T",
+    "id" : "1RKG6WXRzmTJtbLRZTPU0T",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/86d7d88cf05655f01b942410a9da15df531b871c",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/d1f0b9aaf1c787250bba7bf47b89acaa84b8a924",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/e02c8c21d31308a18d4db232d004e563c2181947",
+      "width" : 160
+    } ],
+    "name" : "Cosmo Pyke",
+    "popularity" : 59,
+    "type" : "artist",
+    "uri" : "spotify:artist:1RKG6WXRzmTJtbLRZTPU0T"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/3NUtpWpGDoffm3RCGhSHtl"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 138737
+    },
+    "genres" : [ "alternative dance", "bass music", "chamber psych", "chillwave", "deep indie r&b", "electronic", "escape room", "future garage", "indie jazz", "indie r&b", "indietronica", "microhouse", "new rave", "trip hop" ],
+    "href" : "https://api.spotify.com/v1/artists/3NUtpWpGDoffm3RCGhSHtl",
+    "id" : "3NUtpWpGDoffm3RCGhSHtl",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/d784215c4b003f30d5622912584f4d21a1030269",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/3690585e41e216aee01c6a4b5c550674aa5706d0",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/51bc5cae9f0dd01f91b0066f7e81203f3afc9df5",
+      "width" : 160
+    } ],
+    "name" : "Mount Kimbie",
+    "popularity" : 63,
+    "type" : "artist",
+    "uri" : "spotify:artist:3NUtpWpGDoffm3RCGhSHtl"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6O4EGCCb6DoIiR6B1QCQgp"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 261814
+    },
+    "genres" : [ "alternative dance", "chillwave", "deep indie r&b", "escape room", "freak folk", "indie pop", "indie psych-rock", "indie r&b", "indie rock", "indietronica", "modern rock", "neo-psychedelic", "new rave", "nu gaze", "shimmer pop", "synthpop", "vapor soul" ],
+    "href" : "https://api.spotify.com/v1/artists/6O4EGCCb6DoIiR6B1QCQgp",
+    "id" : "6O4EGCCb6DoIiR6B1QCQgp",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/e2480141c3a430f843be85f34b818a4a2d36ccc3",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/cfae2797089a509bd56d30b3bbcb3da8c3467bcb",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/36dd0b00f32a80f89cc4638198e7ad2f81b12e5a",
+      "width" : 160
+    } ],
+    "name" : "Toro y Moi",
+    "popularity" : 66,
+    "type" : "artist",
+    "uri" : "spotify:artist:6O4EGCCb6DoIiR6B1QCQgp"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/2SdK1QDmZIP2hk94rSaLl9"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 28084
+    },
+    "genres" : [ "chamber psych", "chillwave", "dream pop", "escape room", "freak folk", "garage psych", "indie garage rock", "indie psych-rock", "indie r&b", "indietronica", "neo-psychedelic", "preverb", "shiver pop" ],
+    "href" : "https://api.spotify.com/v1/artists/2SdK1QDmZIP2hk94rSaLl9",
+    "id" : "2SdK1QDmZIP2hk94rSaLl9",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/7f0ebdb8682ebd95316429100c674f0e6b2b800c",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/9765bb04b1cd8cfb14eb6bc7fb72d19683361285",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/1b2121f666f323837f18f73e6ac8d681e46b2d60",
+      "width" : 160
+    } ],
+    "name" : "TOPS",
+    "popularity" : 56,
+    "type" : "artist",
+    "uri" : "spotify:artist:2SdK1QDmZIP2hk94rSaLl9"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4R073T3AVJKqAsbzLmLW9u"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 51797
+    },
+    "genres" : [ "art rock", "chamber psych", "chillwave", "dream pop", "escape room", "experimental", "freak folk", "garage psych", "grave wave", "indie r&b", "indietronica", "lo-fi", "neo-psychedelic", "new weird america", "noise pop", "noise rock", "nu gaze", "post-punk", "vaporwave" ],
+    "href" : "https://api.spotify.com/v1/artists/4R073T3AVJKqAsbzLmLW9u",
+    "id" : "4R073T3AVJKqAsbzLmLW9u",
+    "images" : [ {
+      "height" : 1198,
+      "url" : "https://i.scdn.co/image/af13a858e5e047c3433e151f7fc3c9d8bd3c0598",
+      "width" : 899
+    }, {
+      "height" : 853,
+      "url" : "https://i.scdn.co/image/c3ba0c904439b0f8cbb5727367cec5c0b7dbd33a",
+      "width" : 640
+    }, {
+      "height" : 267,
+      "url" : "https://i.scdn.co/image/4f9218de39d42d27bbf37e471a616324fdc604ad",
+      "width" : 200
+    }, {
+      "height" : 85,
+      "url" : "https://i.scdn.co/image/9c96bfdf75452fd08791414079499f20389ec028",
+      "width" : 64
+    } ],
+    "name" : "John Maus",
+    "popularity" : 59,
+    "type" : "artist",
+    "uri" : "spotify:artist:4R073T3AVJKqAsbzLmLW9u"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5FQbU5Lrb4pFcW45ZgZzMx"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 42415
+    },
+    "genres" : [ "chillwave", "dream pop", "freak folk", "garage psych", "indie garage rock", "indie pop", "indie psych-rock", "indie rock", "indietronica", "lo-fi", "neo-psychedelic", "noise pop", "noise rock", "nu gaze", "preverb", "shimmer pop" ],
+    "href" : "https://api.spotify.com/v1/artists/5FQbU5Lrb4pFcW45ZgZzMx",
+    "id" : "5FQbU5Lrb4pFcW45ZgZzMx",
+    "images" : [ {
+      "height" : 1503,
+      "url" : "https://i.scdn.co/image/2795c92d94e66c2ed7243d19783e88a75a560b1f",
+      "width" : 1000
+    }, {
+      "height" : 962,
+      "url" : "https://i.scdn.co/image/3bce8cbdadf88d4bedefa20696a23474c6467320",
+      "width" : 640
+    }, {
+      "height" : 301,
+      "url" : "https://i.scdn.co/image/652dbb8f44d11c8106bd54d4fcd053e171c8a92e",
+      "width" : 200
+    }, {
+      "height" : 96,
+      "url" : "https://i.scdn.co/image/5e032eac97e4797be604872d8c1466cbb1042371",
+      "width" : 64
+    } ],
+    "name" : "Ducktails",
+    "popularity" : 52,
+    "type" : "artist",
+    "uri" : "spotify:artist:5FQbU5Lrb4pFcW45ZgZzMx"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5J81VungUjSVHxlPpTI9KG"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 61333
+    },
+    "genres" : [ "freak folk", "indie garage rock", "indie psych-rock", "indietronica", "neo-psychedelic", "preverb" ],
+    "href" : "https://api.spotify.com/v1/artists/5J81VungUjSVHxlPpTI9KG",
+    "id" : "5J81VungUjSVHxlPpTI9KG",
+    "images" : [ {
+      "height" : 592,
+      "url" : "https://i.scdn.co/image/2124d5c8473a6fe9c4871684a72116bbef9bf1f3",
+      "width" : 592
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/ca4bb8d065f839f3fcef9c017488baa769db515a",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/097cfd24ec54fd4ab68e4914c5e7cab21a3248f8",
+      "width" : 160
+    } ],
+    "name" : "Mild High Club",
+    "popularity" : 64,
+    "type" : "artist",
+    "uri" : "spotify:artist:5J81VungUjSVHxlPpTI9KG"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6vVztIuqdDHvYWxOEXCzjN"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 55578
+    },
+    "genres" : [ "chillwave", "indie garage rock", "indie pop", "indie psych-rock", "indietronica", "preverb", "vapor soul" ],
+    "href" : "https://api.spotify.com/v1/artists/6vVztIuqdDHvYWxOEXCzjN",
+    "id" : "6vVztIuqdDHvYWxOEXCzjN",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/6d4d6c2b5ea1ea4d40e51bf3bc5ce8ad094d67eb",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/6593626761cc8c127cdb8a78648d456b8c0a5541",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/0313493815446a0ca5e73dd52b835252937ace55",
+      "width" : 160
+    } ],
+    "name" : "SALES",
+    "popularity" : 62,
+    "type" : "artist",
+    "uri" : "spotify:artist:6vVztIuqdDHvYWxOEXCzjN"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6lcwlkAjBPSKnFBZjjZFJs"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 42421
+    },
+    "genres" : [ "alternative rock", "anti-folk", "chamber pop", "chillwave", "dream pop", "escape room", "folk-pop", "freak folk", "garage psych", "indie folk", "indie garage rock", "indie pop", "indie psych-rock", "indie punk", "indie r&b", "indie rock", "indietronica", "lo-fi", "modern rock", "neo-psychedelic", "noise pop", "preverb", "slow core" ],
+    "href" : "https://api.spotify.com/v1/artists/6lcwlkAjBPSKnFBZjjZFJs",
+    "id" : "6lcwlkAjBPSKnFBZjjZFJs",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/e3071d674da3f489283c8ef2f3064948d2401a93",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/26cc0a33fcffbe0350df56e17b2ac836bf005ab3",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/4d1a35475f4862ec8466fc8127f44ae9ba0fc3da",
+      "width" : 160
+    } ],
+    "name" : "(Sandy) Alex G",
+    "popularity" : 60,
+    "type" : "artist",
+    "uri" : "spotify:artist:6lcwlkAjBPSKnFBZjjZFJs"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4OrizGCKhOrW6iDDJHN9xd"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 135859
+    },
+    "genres" : [ "alternative dance", "alternative rock", "brooklyn indie", "chamber psych", "chillwave", "dance-punk", "dream pop", "freak folk", "garage psych", "garage rock", "indie garage rock", "indie pop", "indie psych-rock", "indie rock", "indietronica", "lo-fi", "modern rock", "neo-psychedelic", "new rave", "noise pop", "nu gaze", "preverb", "shimmer pop", "space rock", "synthpop" ],
+    "href" : "https://api.spotify.com/v1/artists/4OrizGCKhOrW6iDDJHN9xd",
+    "id" : "4OrizGCKhOrW6iDDJHN9xd",
+    "images" : [ {
+      "height" : 584,
+      "url" : "https://i.scdn.co/image/d1d524d7a220e3802e15960af64114889efd9baa",
+      "width" : 960
+    }, {
+      "height" : 389,
+      "url" : "https://i.scdn.co/image/98f00fbbda7acb6af3466f97b4bfbf48518d1e1c",
+      "width" : 639
+    }, {
+      "height" : 122,
+      "url" : "https://i.scdn.co/image/03d10e749e09b8a20e8dae6e1d5f721ceadc035e",
+      "width" : 200
+    }, {
+      "height" : 39,
+      "url" : "https://i.scdn.co/image/910b5bdb133bcbe3d5d406a8aad9082b8ceb859c",
+      "width" : 64
+    } ],
+    "name" : "DIIV",
+    "popularity" : 61,
+    "type" : "artist",
+    "uri" : "spotify:artist:4OrizGCKhOrW6iDDJHN9xd"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/3dv4Q4q3LWOnbLJnC6GgTY"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 53342
+    },
+    "genres" : [ "indie garage rock", "indie psych-rock", "vapor soul" ],
+    "href" : "https://api.spotify.com/v1/artists/3dv4Q4q3LWOnbLJnC6GgTY",
+    "id" : "3dv4Q4q3LWOnbLJnC6GgTY",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/fa8f77d52fae516e3883b740d6483d36d0507b50",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/94a57752118dad55ae5501eadacfd8dd3da536b1",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/3e8b66aa638d9b90d51c5d5fe5d31830f5dfd2b8",
+      "width" : 160
+    } ],
+    "name" : "Yellow Days",
+    "popularity" : 64,
+    "type" : "artist",
+    "uri" : "spotify:artist:3dv4Q4q3LWOnbLJnC6GgTY"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/38zTZcuN7nFvVJ6auhc6V3"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 152888
+    },
+    "genres" : [ "alternative dance", "alternative rock", "anti-folk", "chamber pop", "chamber psych", "chillwave", "dance-punk", "dream pop", "experimental rock", "folk-pop", "freak folk", "garage psych", "garage rock", "indie folk", "indie garage rock", "indie pop", "indie r&b", "indie rock", "indietronica", "lo-fi", "modern rock", "neo-psychedelic", "new rave", "new wave", "noise pop", "noise rock", "nu gaze", "post rock", "preverb", "shoegaze", "slow core", "space rock", "synthpop" ],
+    "href" : "https://api.spotify.com/v1/artists/38zTZcuN7nFvVJ6auhc6V3",
+    "id" : "38zTZcuN7nFvVJ6auhc6V3",
+    "images" : [ {
+      "height" : 1000,
+      "url" : "https://i.scdn.co/image/893dd2071272b22b0f585bc2427077bab18af3c4",
+      "width" : 1000
+    }, {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/5f2e1782ad228840c6d7899d610d7891e74bc0a1",
+      "width" : 640
+    }, {
+      "height" : 200,
+      "url" : "https://i.scdn.co/image/8914392567d0ec9afb131aaa5e7c67111d97f207",
+      "width" : 200
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/50cef218e08723748c4acc5dd440de71056512f6",
+      "width" : 64
+    } ],
+    "name" : "Deerhunter",
+    "popularity" : 60,
+    "type" : "artist",
+    "uri" : "spotify:artist:38zTZcuN7nFvVJ6auhc6V3"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/6LEeAFiJF8OuPx747e1wxR"
+    },
+    "followers" : {
+      "href" : null,
+      "total" : 204612
+    },
+    "genres" : [ "alternative dance", "chillwave", "deep indie r&b", "dream pop", "escape room", "indie pop", "indie r&b", "indie rock", "indietronica", "metropopolis", "neo soul", "neo-psychedelic", "new rave", "shimmer pop", "synthpop" ],
+    "href" : "https://api.spotify.com/v1/artists/6LEeAFiJF8OuPx747e1wxR",
+    "id" : "6LEeAFiJF8OuPx747e1wxR",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/a0527c0111ac31f1a60aa8435a0630d2a0c14614",
+      "width" : 640
+    }, {
+      "height" : 320,
+      "url" : "https://i.scdn.co/image/2a5b02cb35bd40d64081d25e2df88e1fd475f618",
+      "width" : 320
+    }, {
+      "height" : 160,
+      "url" : "https://i.scdn.co/image/2cca9e6996e9848e340342ffd7cfea3d426d6960",
+      "width" : 160
+    } ],
+    "name" : "Blood Orange",
+    "popularity" : 63,
+    "type" : "artist",
+    "uri" : "spotify:artist:6LEeAFiJF8OuPx747e1wxR"
+  } ]
+}
