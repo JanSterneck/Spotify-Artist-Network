@@ -1,37 +1,53 @@
 //------------GOALS-------------//
-//1. open up at mouseClick
-//2. hover over bubbles to fill
+//1. artist search (realtime data) 
+//2. SVG
 //3. relative size (bubbles of smaller artists being visible without bubbles of bigger artists getting too big)
-//4. artist search (realtime data)
-//5. click on related artist to make him/her the main artist
-//6. SVG
+//4. hover over bubbles to fill
+//5. open up at mouseClick
+//6. click on related artist to make him/her the main artist
+
+
 
 var related;
 var amount = 10;
 var toggleNames = true;
+var spotifyApi = new SpotifyWebApi();
+spotifyApi.setAccessToken('BQAAD-dFCq5GsEMdbEq5v8b4ETrU1ihO_mVgAoqtWZN_HVKldrpaGGhEI79T8joOiLCYjqwQIqpMYqn9sq3oTt2sTUgq1rqJS79cuHA75zZnGP6yp5vcJhmZJBtVwQkse75E1e0k5qFl52iyaCsr');
 
 //fetch .json data
   function preload() {
-   related = loadJSON("data.json");
+//???
 }
 
-//basics
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  noStroke();
-  textSize(20);
-  smooth();
+	// i like my canvas like my browser window 
+	// SVG renderer (requires p5.svg.js)
+	createCanvas(windowWidth, windowHeight, SVG);
+	//some practical settings i like to use as default
+	
+	noStroke();
+  	textSize(20);
+  	smooth();
 
-//User Interface
+	//colorMode(HSB, 360, 100, 100, 1)
+	//ellipseMode(CENTER);
+	//rectMode(CENTER);
+	//angleMode(DEGREES);
+
+	//more setup code here
+
+	//User Interface
   sliderRange(1, 20);
   gui = createGui("CONTROL");
   gui.addGlobals("amount");
   gui.addGlobals("toggleNames"); 
   gui.addButton("save", function () {
+  	spotifyApi.setAccessToken('<here_your_access_token>');
     save("spotifyViz.png");
   }
   );
 }
+
 
 function draw() {
   background(24, 24, 24);
@@ -56,7 +72,7 @@ function draw() {
     textFont('Montserrat');
     //text("MAIN", width/2, height/2+50);
 
-    fill(30, 215, 96);
+    fill(30, 215, 96,70);
     ellipse(x, y, followers, followers);
 
     //LINES
@@ -79,5 +95,5 @@ function draw() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+	resizeCanvas(windowWidth, windowHeight);
 }

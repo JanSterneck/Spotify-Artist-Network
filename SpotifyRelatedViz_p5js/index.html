@@ -1,21 +1,24 @@
+<!DOCTYPE html>
 <html>
+
   <head>
-  <meta charset="UTF-8">
-  
-  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
-  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-  <script language="javascript" type="text/javascript" src="libraries/p5.svg.js"></script>
-  <script language="javascript" type="text/javascript" src="libraries/p5gui.js"></script>
-  <script language="javascript" type="text/javascript" src="quicksettings.js"></script>
-  <script language="javascript" type="text/javascript" src="SpotifyRelatedViz_p5js.js"></script>
-  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
-<script language="javascript" type="text/javascript" src="libraries/quicksettings.js"></script>
-  <script language="javascript" type="text/javascript" src="libraries/p5gui.js"></script>
-  <script language="javascript" type="text/javascript" src="SpotifyRelatedViz_p5js.js"></script>
-      <script src="libraries/p5.svg.js"></script>
-  <!-- This line removes any default padding and style. 
-  You might only need one of these values set. -->
-    <style>   
+    <meta charset="UTF-8">
+    <!-- change to preferred window title -->
+    <title>Spotify Artist</title>
+    <!-- using p5 version 0.5.11 because below has problems with retina macs. only p5 0.4.13 officially supported by p5.svg.js though... -->
+    <!-- also cloudflaring because makes it easy to change version if needed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <!-- including p5.gui.js as default because its cool -->
+    <script src="libraries/quicksettings.js"></script>
+    <script src="libraries/p5.gui.js"></script>
+    <!-- including p5.svg.js -->
+    <!-- note how SVG is set as renderer in sketch.js: createCanvas()! use save() to export. -->
+    <script src="libraries/p5.svg.js"></script>
+    <script src="libraries/spotify-web-api"></script>
+    <script src="sketch.js"></script>
+   <style>   
         body {padding: 20px; margin: 0; background-color: rgb(24, 24, 24);}
         
         button {background-color: #e7e7e7; 
