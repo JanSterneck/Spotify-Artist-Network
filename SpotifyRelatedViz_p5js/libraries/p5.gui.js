@@ -17,8 +17,8 @@
     p5.prototype.createGui = function(label, x, y, provider) {
 
         label = label || 'GUI';
-        x = x || 20;
-        y = y || 20;
+        x = x || 22;
+        y = y || 160;
         provider = provider || guiProvider;
 
         var gui;

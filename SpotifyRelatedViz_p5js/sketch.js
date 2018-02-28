@@ -3,6 +3,7 @@
 //2. hover over bubbles to fill
 //3. open up at mouseClick
 //4. click on related artist to make him/her the main artist
+//5. fixed header – header inside sketch?
 
 
 
@@ -12,7 +13,7 @@ var toggleNames = true;
 var spotifyApi = new SpotifyWebApi();
 var button = document.querySelector('button');
 var searchBox = document.querySelector('input');
-spotifyApi.setAccessToken('BQDxs3mIms_6749GbQqVYEgNanFxZ4d80hZw3w_O-IZ4dst2wxyz8jpmrddGvapU8KiomZV3j-rCaUzIfV16R6QAe5-zc9HrQZbm05eZMhZRejJY60oZ3PXzslDE5j6RFClWC3imaZBzWxPE-futYrbiYYDQy2k4sQ');
+spotifyApi.setAccessToken('BQAmqXqMw12IC468Tk2hQoZRm6SGgX5FazH9Rg4uqE5hPl-FJt8ep_KqL22Tjlvmm1Cn0H4ddJUjY9RJkhD6YahNiwpJ_lqf98lNV5A03E3XVneW0GoeTK_-vXDsX3E8rpSmobCG4mruWXek7izh');
 
 
 function setup() {
