@@ -11,52 +11,78 @@
 var related;
 var amount = 10;
 var toggleNames = true;
-var spotifyApi = new SpotifyWebApi();
-spotifyApi.setAccessToken('BQAAD-dFCq5GsEMdbEq5v8b4ETrU1ihO_mVgAoqtWZN_HVKldrpaGGhEI79T8joOiLCYjqwQIqpMYqn9sq3oTt2sTUgq1rqJS79cuHA75zZnGP6yp5vcJhmZJBtVwQkse75E1e0k5qFl52iyaCsr');
-
-//fetch .json data
-  function preload() {
-//???
-}
 
 function setup() {
-	// i like my canvas like my browser window 
-	// SVG renderer (requires p5.svg.js)
-	createCanvas(windowWidth, windowHeight, SVG);
-	//some practical settings i like to use as default
-	
-	noStroke();
-  	textSize(20);
-  	smooth();
 
-	//colorMode(HSB, 360, 100, 100, 1)
-	//ellipseMode(CENTER);
-	//rectMode(CENTER);
-	//angleMode(DEGREES);
+    // i like my canvas like my browser window 
+  // SVG renderer (requires p5.svg.js)
+  createCanvas(windowWidth, windowHeight, SVG);
+  //some practical settings i like to use as default
+  
+  noStroke();
+    textSize(20);
+    smooth();
 
-	//more setup code here
+  //colorMode(HSB, 360, 100, 100, 1)
+  //ellipseMode(CENTER);
+  //rectMode(CENTER);
+  //angleMode(DEGREES);
 
-	//User Interface
+  //more setup code here
+
+  //User Interface
   sliderRange(1, 20);
   gui = createGui("CONTROL");
   gui.addGlobals("amount");
   gui.addGlobals("toggleNames"); 
   gui.addButton("save", function () {
-  	spotifyApi.setAccessToken('<here_your_access_token>');
     save("spotifyViz.png");
   }
   );
+		
+    var spotifyApi = new SpotifyWebApi();
+spotifyApi.setAccessToken('BQAmWyOJh2NlhVNmqcyc4XXyKiRkGOzult1ZAi3rWAiiw_BORh6i5P0D7RU3GcWjuPOKJ_pHvgBnVDYUODSw2sJY4Ua3uGsU6LGK55gIbH7fJWO2V2uJjNdAL335Jp5c1zfBE0QtenMrxlOT4S5XNyGOmVaC7a1NpQ');
+
+var relatedArtists = new Array();
+var button = document.querySelector('button');
+var searchBox = document.querySelector('input');
+
+var search = function(query) {
+  spotifyApi.searchArtists(query)
+    .then(function(data) {
+        var id = (data.artists.items[0].id);
+        return id;
+    })
+    .then(function(id) {
+      var related = spotifyApi.getArtistRelatedArtists(id);
+      return related;
+    })
+    .then(function(related) {
+      //return draw(related);
+      return console.log(related);
+    })
+    .catch(function() {
+      console.log('error');
+    });
+}
+
+button.addEventListener('click', function() {
+  var query = searchBox.value;
+
+  search(query);
+});
+
 }
 
 
-function draw() {
+function draw(related) {
   background(24, 24, 24);
   var angle = 360/amount;
 
   for (var i = 0; i < amount; i++) {
-    var name = related.artists[i].name;
-    var pop = related.artists[i].popularity;
-    var followers = related.artists[i].followers.total;
+    var name = related[i].name;
+    var pop = related[i].popularity;
+    var followers = related[i].followers.total;
     followers = followers/20000;
 
     var x = width/2 + cos(radians(angle*i)) * (pop*5);

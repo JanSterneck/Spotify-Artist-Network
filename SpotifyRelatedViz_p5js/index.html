@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <!-- change to preferred window title -->
-    <title>Spotify Artist</title>
+    <title>Spotify Artist Network</title>
     <!-- using p5 version 0.5.11 because below has problems with retina macs. only p5 0.4.13 officially supported by p5.svg.js though... -->
     <!-- also cloudflaring because makes it easy to change version if needed -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
@@ -16,7 +16,7 @@
     <!-- including p5.svg.js -->
     <!-- note how SVG is set as renderer in sketch.js: createCanvas()! use save() to export. -->
     <script src="libraries/p5.svg.js"></script>
-    <script src="libraries/spotify-web-api"></script>
+    <script src="libraries/spotify-web-api.js"></script>
     <script src="sketch.js"></script>
    <style>   
         body {padding: 20px; margin: 0; background-color: rgb(24, 24, 24);}
@@ -47,8 +47,8 @@
     <body>
       <p>
         <font face="Montserrat, arial, sans-serif" size="3"></font>
-        <input id = "artist" value="King Krule"></input>
-        <button id="submit">Get Artist</button>
+        <input type="text">
+        <button type="button">Search</button>
       </p>
     </body>
   </html>
