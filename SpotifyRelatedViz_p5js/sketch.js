@@ -13,8 +13,9 @@ var toggleNames = true;
 var spotifyApi = new SpotifyWebApi();
 var button = document.querySelector('button');
 var searchBox = document.querySelector('input');
+
 //in case of 401 error: new AccessToken – https://developer.spotify.com/web-api/console/get-artist-related-artists/
-spotifyApi.setAccessToken('BQAb1CB7mdYZEsGmJb__tUSmim9pM3AuN5fExTrCJKyLNB__M8-YVNJvwcfOvwnJNYv_cRWi_V4Iq2JfNmp-hQ_4N2_tOXaYGHlwPYaz4fURWQyN9OsGtlze87_-XDnZ4yNh3F56dg08a-Uq_08g');
+spotifyApi.setAccessToken('BQBzljWrO6deyGOI1kEyQaa0cUSqvifl9-yF1ptn2Du9qUM5RYENDfTbj4xK-C4l3jL1FAvyfi0Cjv8Tr11U3r6hHUsybPi1SNIqVfUnGlZJVY_XtEVdZySKaVfZHGNdAvIbkK_SNYC8touSmclW');
 
 
 function setup() {
@@ -64,7 +65,7 @@ function draw(related) {
 
       //MAIN
       fill(30, 215, 96);
-      noFill();
+      //noFill();
       ellipse(width/2, height/2, 40, 40);
       fill(255);
       fill(5);
@@ -79,15 +80,17 @@ function draw(related) {
         textAlign(CENTER);
         text(name, x, y+10+followers/2, 0, 100);
       }
-
-      fill(30, 215, 96);
+      fill(30,215,96,25);
+      stroke(30,215,96);
+      strokeWeight(1);
+      //fill(30, 215, 96);
       ellipse(x, y, followers, followers);
 
       //LINES
-      var xCenter = width/2 + cos(radians(angle*i)) * (30);
-      var yCenter = height/2 + sin(radians(angle*i)) * (30);
-
-      stroke(30, 215, 96, 50);
+      var xCenter = width/2 + cos(radians(angle*i)) * (35);
+      var yCenter = height/2 + sin(radians(angle*i)) * (35);
+      strokeWeight(1.5);
+      stroke(30, 215, 96,60);
       line(xCenter, yCenter, x, y);
     }
   }
