@@ -13,7 +13,8 @@ var toggleNames = true;
 var spotifyApi = new SpotifyWebApi();
 var button = document.querySelector('button');
 var searchBox = document.querySelector('input');
-spotifyApi.setAccessToken('BQAmqXqMw12IC468Tk2hQoZRm6SGgX5FazH9Rg4uqE5hPl-FJt8ep_KqL22Tjlvmm1Cn0H4ddJUjY9RJkhD6YahNiwpJ_lqf98lNV5A03E3XVneW0GoeTK_-vXDsX3E8rpSmobCG4mruWXek7izh');
+//in case of 401 error: new AccessToken – https://developer.spotify.com/web-api/console/get-artist-related-artists/
+spotifyApi.setAccessToken('BQAb1CB7mdYZEsGmJb__tUSmim9pM3AuN5fExTrCJKyLNB__M8-YVNJvwcfOvwnJNYv_cRWi_V4Iq2JfNmp-hQ_4N2_tOXaYGHlwPYaz4fURWQyN9OsGtlze87_-XDnZ4yNh3F56dg08a-Uq_08g');
 
 
 function setup() {
