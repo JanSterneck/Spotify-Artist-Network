@@ -15,7 +15,7 @@ var button = document.querySelector('button');
 var searchBox = document.querySelector('input');
 
 //in case of 401 error: new AccessToken – https://developer.spotify.com/web-api/console/get-artist-related-artists/
-spotifyApi.setAccessToken('BQBzljWrO6deyGOI1kEyQaa0cUSqvifl9-yF1ptn2Du9qUM5RYENDfTbj4xK-C4l3jL1FAvyfi0Cjv8Tr11U3r6hHUsybPi1SNIqVfUnGlZJVY_XtEVdZySKaVfZHGNdAvIbkK_SNYC8touSmclW');
+spotifyApi.setAccessToken('BQB7XQX2kTHVVq5obNWzE_m09G5IyLFV5YqzRaydQzwApb3J350Mq8vMxihYzxMIn1_AaRQHZog21WE9z5XEKu94HD8vbXbCuKcChBPry7nzPL7ha3ePO5xVBV1AtNYLkHd57rrf2hAnH3yoWuoq');
 
 
 function setup() {
@@ -71,7 +71,6 @@ function draw(related) {
       fill(5);
       textAlign(CENTER);
       textFont('Montserrat');
-      //text("MAIN", width/2, height/2+50);
 
       if (toggleNames==true) {
         fill(255);
@@ -85,6 +84,9 @@ function draw(related) {
       strokeWeight(1);
       //fill(30, 215, 96);
       ellipse(x, y, followers, followers);
+      noStroke();
+      fill(30,215,96);
+      ellipse(x, y, followers/15, followers/15);
 
       //LINES
       var xCenter = width/2 + cos(radians(angle*i)) * (35);
