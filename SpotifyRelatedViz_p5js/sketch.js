@@ -15,7 +15,7 @@ var button = document.querySelector('button');
 var searchBox = document.querySelector('input');
 
 //in case of 401 error: new AccessToken – https://developer.spotify.com/web-api/console/get-artist-related-artists/
-spotifyApi.setAccessToken('BQB7XQX2kTHVVq5obNWzE_m09G5IyLFV5YqzRaydQzwApb3J350Mq8vMxihYzxMIn1_AaRQHZog21WE9z5XEKu94HD8vbXbCuKcChBPry7nzPL7ha3ePO5xVBV1AtNYLkHd57rrf2hAnH3yoWuoq');
+spotifyApi.setAccessToken('BQBe_Eem5FD0L3j42LRgURce-7EI4Q9IShngT2LzmbbC_f_OltDfDpjfZYy1H3ihScOkHpoW4hR3QzW-TQAKBrHGgUnW0deYmecsQWQpNpn-t1sQyCf_lDZn6HFfoRq0fYmpNTOaCTTkwk8nTYvT');
 
 
 function setup() {
@@ -30,7 +30,7 @@ function setup() {
   );
 	// i like my canvas like my browser window
 	// SVG renderer (requires p5.svg.js)
-	createCanvas(windowWidth, 1500, SVG);
+	createCanvas(windowWidth, 1900, SVG);
 	//some practical settings i like to use as default
 
 	noStroke();
@@ -73,6 +73,7 @@ function draw(related) {
       textFont('Montserrat');
 
       if (toggleNames==true) {
+        noStroke();
         fill(255);
         textSize(15);
         textFont('Montserrat');
